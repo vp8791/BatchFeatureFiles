@@ -10,7 +10,7 @@ Feature: Order Date Validator
 
     Examples:
       | OrderDate		 | ValidOrInvalid |
-      | 11-01-2019      |  true   |
+      | 31-01-2019      |  true   |
       | 11-02-2019      |  true   |
       | 11-03-2019      |  true   |
       | 11-04-2019      |  true   |
